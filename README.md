@@ -1,5 +1,8 @@
 # Logo Maker
 
+![Gif showing how to use](./gif/logomaker.gif)
+
+
 Logo Maker is a command-line application that allows users to generate simple logos for their projects without the need for a graphic designer.
 
 ## Features
