@@ -33,15 +33,23 @@ async function promptUser() {
 
 function createSVG(shape, shapeColor, text, textColor) {
     let shapeObj;
+    let textX, textY;
+
     switch (shape) {
         case 'circle':
             shapeObj = new Circle();
+            textX = 150; // Center X coordinate of circle
+            textY = 100; // Center Y coordinate of circle
             break;
         case 'triangle':
             shapeObj = new Triangle();
+            textX = 150; // Center X coordinate of triangle
+            textY = 100; // Center Y coordinate of triangle
             break;
         case 'square':
             shapeObj = new Square();
+            textX = 150; // Center X coordinate of square
+            textY = 100; // Center Y coordinate of square
             break;
         default:
             throw new Error('Invalid shape');
@@ -50,7 +58,7 @@ function createSVG(shape, shapeColor, text, textColor) {
     const svgContent = `
         <svg width="300" height="200">
             ${shapeObj.render()}
-            <text x="10" y="20" fill="${textColor}">${text}</text>
+            <text x="${textX}" y="${textY}" fill="${textColor}" text-anchor="middle" alignment-baseline="middle">${text}</text>
         </svg>
     `;
     return svgContent;
