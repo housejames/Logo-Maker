@@ -31,14 +31,16 @@ Follow the prompts to enter the text, text color, shape, and shape color. After 
 
 ## Project Structure
 
+````markdown
 .
-├── examples/ // Example SVG file(s) created with the app
-├── lib/ // Folder for classes or functions
-│ ├── shapes.js // Exports Triangle, Circle, and Square classes
-│ └── shapes.test.js // Jest tests for shapes
-├── index.js // Runs the application using imports from lib/
+├── examples/            // Example SVG file(s) created with the app
+├── lib/                 // Folder for classes or functions
+│   ├── shapes.js        // Exports Triangle, Circle, and Square classes
+│   └── shapes.test.js   // Jest tests for shapes
+├── index.js             // Runs the application using imports from lib/
 ├── package.json
-└── README.md // App description, setup, and usage instructions
+└── README.md            // App description, setup, and usage instructions
+
 
 
 ## Testing
