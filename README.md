@@ -31,7 +31,7 @@ Follow the prompts to enter the text, text color, shape, and shape color. After 
 
 ## Screen Recording
 
-- [Link to the file](https://drive.google.com/file/d/1b0Mq2t9sspJhJXOe6mSI4w4a99Id0xTk/view?usp=sharing)
+- [How to use video](https://drive.google.com/file/d/1b0Mq2t9sspJhJXOe6mSI4w4a99Id0xTk/view?usp=sharing)
 
 ## Project Structure
 
