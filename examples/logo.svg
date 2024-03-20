@@ -1,0 +1,6 @@
+
+        <svg width="300" height="200">
+            <rect x="50" y="50" width="200" height="100" fill="pink" />
+            <text x="10" y="20" fill="pink">JH</text>
+        </svg>
+    
