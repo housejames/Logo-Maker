@@ -29,6 +29,10 @@ Follow the prompts to enter the text, text color, shape, and shape color. After 
 - [Inquirer](https://www.npmjs.com/package/inquirer): For collecting user input.
 - [Jest](https://jestjs.io/): For running unit tests.
 
+## Screen Recording
+
+- [Link to the file](https://drive.google.com/file/d/1b0Mq2t9sspJhJXOe6mSI4w4a99Id0xTk/view?usp=sharing)
+
 ## Project Structure
 
 ````markdown
@@ -40,11 +44,6 @@ Follow the prompts to enter the text, text color, shape, and shape color. After 
 ├── index.js             // Runs the application using imports from lib/
 ├── package.json
 └── README.md            // App description, setup, and usage instructions
-
-## Screen Recording
-
-- [Link to the file](https://drive.google.com/file/d/1b0Mq2t9sspJhJXOe6mSI4w4a99Id0xTk/view?usp=sharing)
-
 
 ## Testing
 
